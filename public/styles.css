@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+body.index {
+  background-image: url("fotocampo3.jpg");
+}
+
+body.login {
+  background-image: url("fotocampo1.jpg");
+}
+
+body.registro {
+  background-image: url("fotocampo2.jpg");
+}
+
+#form-box,
+#overlay-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #114B5F;
+}
+
+p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+a {
+  color: #114B5F;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  width: 100%;
+  background-color: #114B5F;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0d3a4d;
+}
+
+.main-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  color: #114B5F;
+  border: 2px solid #114B5F;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-btn:hover {
+  background-color: #114B5F;
+  color: white;
+}

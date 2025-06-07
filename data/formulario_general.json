@@ -1,0 +1,16 @@
+[
+  {
+    "tipo": "registro",
+    "nombre": "admin",
+    "email": "admin@correo.com",
+    "direccion": "demo",
+    "password": "12345678"
+  },
+  {
+    "tipo": "registro",
+    "nombre": "mateo",
+    "email": "mateomoralesc0@gmail.com",
+    "direccion": "casa",
+    "password": "qwertyuiop"
+  }
+]
